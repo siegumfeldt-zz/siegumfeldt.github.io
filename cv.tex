@@ -1,0 +1,183 @@
+\documentclass[a4paper]{article} 
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{currvita}
+\usepackage{fullpage}
+\usepackage{charter}
+
+
+% sudo apt-get install texlive-latex-base 
+% sudo apt-get install texlive-lang-danish 
+% sudo apt-get install texlive-latex-extra
+% sudo apt-get install texlive-fonts-recommended
+
+
+\newcommand*{\ac}[1]{\mbox{#1}}
+\cvplace{København}
+\pagenumbering{gobble}
+
+\begin{document} 
+
+\setlength{\cvlabelwidth}{35mm}
+
+\begin{cv}{Frederik Siegumfeldt\\{\large \itshape Curriculum Vitae}}
+
+\begin{cvlist}{Erhvervserfaring}
+
+  \item[2013-]       Datawarehouse-arkitekt, SDC
+
+  \item[2007-2013]   Analytiker, Geomatic a/s
+      
+  \item[2005-2007]   Konsulent, Epinion A/S
+      
+  \item[2000-2005]   Diverse studentermedhjælperjobs (bl.a. 
+                     C{}\verb!++!-programmering og brugersupport), \\ 
+                     Institut for Statskundskab, Aarhus Universitet.
+
+\end{cvlist}
+
+\begin{cvlist}{Uddannelse}          
+
+  \item \emph{Cand. scient. pol}, 2005 \\
+    Aarhus Universitet (10,6 i snit) 
+    
+  \item \emph{Bac. scient. pol}, 2001 \\
+    Aarhus Universitet (9,0 i snit) 
+    
+  \item \emph{Exam. art.} i filosofi, 1997 \\
+    Aarhus Universitet
+
+  \item \emph{Matematisk studentereksamen}, 1995 \\
+    Aalborg Katedralskole (10,7 i snit)
+
+\end{cvlist}
+
+\begin{cvlist}{Profil}
+
+  \item
+
+%   `Fleksibel', `alsidig' og `løsningsorienteret' er nok de tre ord, der 
+%   Fleksibel, alsidig og løsningsorienteret er nok de tre karakteristika,
+    Fleksibilitet, alsidighed og og en løsningsorienteret tilgang til 
+    opgaverne er nok de tre egenskaber, der bedst opsummerer mig rent 
+    fagligt. I mine hidtidige jobs har min rolle altid været meget løst 
+    afgrænset, og det har givet mig mulighed for at arbejde på mange 
+    forskellige områder, hvilket jeg trives med.
+
+    Jeg er hurtig til at sætte mig ind i nye problemstillinger, 
+    danne mig et overblik over behov og muligheder og finde steder, 
+    hvor jeg kan bidrage.
+
+    Som person er jeg ganske udadvendt, og da jeg også spænder ret bredt
+    fagligt har jeg haft nemt ved at danne mig netværk på mine 
+    arbejdspladser. Det har givet mig gode muligheder for at fungere som
+    fagligt bindeled mellem de forskellige kolleger, der har været 
+    involveret i opgaveløsningen.
+
+\end{cvlist}
+
+\begin{cvlist}{Kompetencer}          
+
+  \item[\emph{Softwareudviking}]
+
+    % Store træk: Vise bredden
+    Jeg har skrevet kode i arbejdsmæssig sammenhæng siden min 
+    studietid, først i C{}\verb!++! og siden i SQL og Python 
+    (med afstikkere til C\# og VBA). Desuden har jeg erfaring med en 
+    række mere specialiserede sprog til statistisk modellering 
+    (\ac{STATA}, \ac{SAS} og \ac{SPSS}).
+
+    % Mere konkret: Hvad har jeg lavet?
+    Min udviklingserfaring har primært drejet sig om design, 
+    implementering og vedligeholdelse af dataintegrationsflows i SQL,
+    suppleret med Python som generel ``schweizer\-kniv'' til
+    sammenkobling af API'er og udvikling af små værktøjer (til
+    f.eks. parsing af data og automatisering af modelbygning og
+    rapportering). I mit nuværende job går der mindre tid med at 
+    skrive kode, men mere tid med kravsspecs og reviews.
+
+    % Ikke bare kode, også udviklingsproces/-redskaber
+    Jeg har fire års erfaring med versionsstyring i Mercurial, og 
+    medvirker for tiden til at integrere versionsstyring i udviklings-
+    og release\-processerne for de rent SQL-baserede løsninger i 
+    datavarehuset. I det hele taget har mit nuværende arbejde lært mig 
+    en del om vigtigheden af de ting, der ligger før, efter og omkring 
+    arbejdet med at skrive kode.
+
+  \item[\emph{Data}]
+
+    % Store træk: Det har handlet om data
+    Mit hidtidige arbejde med at udvikle og vedligeholde software har 
+    primært drejet sig om data: Om at designe datastrukturer til at 
+    dække konkrete rappor\-terings- og analysebehov og derefter få data 
+    til at flyde igennem fra kildesystem til færdig model og 
+    afrapportering. Jeg har med årene oparbejdet meget solide 
+    SQL-kompetencer (SQL Server og Teradata).
+
+    % Udviklingen har været mod det mere arkitekturelle
+    Med tiden har mit fokus flyttet sig fra analyse og afrapportering 
+    mod databasedesign/datamodellering og arbejdet med den mere 
+    arkitektoniske side af BI og datawarehousing. Jeg trives godt med
+    at have en rolle der kombinerer rimelig lavpraktisk arbejde med kode
+    (kravsspecifikationer, reviews og lidt ``rigtig'' udvikling) med 
+    design af nye lag i datavarehuset og udarbejdelse af kodestandarder 
+    og processer.
+
+  \item[\emph{Statistisk modellering}]
+
+    Som studerende og i mine første jobs arbejdede jeg meget med 
+    forskellige typer af statistisk modellering. Jeg har modelleret churn 
+    og livstidsværdi af kunder, lavet værdiansættelsesmodeller for 
+    fast ejendom og meget andet.
+
+    I mit nuværende arbejde har jeg ikke længere den slags opgaver,
+    og selv om jeg heller ikke ser det som en stor del af mit arbejde 
+    fremover, så skader gode statistikkundskaber aldrig -- særligt 
+    ikke når man arbejder i finanssektoren.
+
+  \item[\emph{Forretningsforståelse}]
+
+    % Store træk: 
+    I alle mine jobs har en væsentlig del af mit arbejde været at 
+    sætte mig ind i de forretningsmæssige krav til projekter og omsætte 
+    dem til en konkret løsning.
+
+    Da jeg var i konsulentbranchen var forretningsområderne mange og 
+    projekterne relativt små, og i mit nuværende arbejde er jeg kommet 
+    mere i dybden med det finansielle område. Jeg har gode evner til 
+    at tilegne mig ny viden -- både IT-fagligt og forretningsmæssigt.
+
+  \item[\emph{Formidling}] 
+
+    I mine jobs på Epinion og Geomatic var det en væsentlig del af 
+    mit arbejde at præsentere analyseprojekter for kunder og formidle såvel 
+    metodisk grundlag som konkrete konklusioner i skrift og tale.
+
+    Formidling af den slags fylder ikke meget i mit nuværende job, men
+    jeg lægger stadig meget stor vægt på at skrive klart og præcist, hvad end
+    det er i en email eller en kravsspecifikation.
+
+  \item[\emph{Sprog}]
+
+    Dansk (Modersmål)
+
+    Engelsk (Flydende, skrift og tale)
+
+\end{cvlist}
+
+\begin{cvlist}{Personlige data}
+
+  \item[\emph{Alder}]       38 år (Født 28. oktober 1976)
+
+  \item[\emph{Familie}]     Gift med Kirstine, far til Benjamin og Jonathan. 
+
+  \item[\emph{Email}]       siegumfeldt@gmail.com
+
+  \item[\emph{Telefon}]     51 48 10 28
+
+  \item[\emph{Adresse}]     Oxford Have 227\\ 
+                            2300 København S
+
+\end{cvlist}
+\end{cv}
+\end{document}
