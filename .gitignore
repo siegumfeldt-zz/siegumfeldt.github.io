@@ -1,2 +1,12 @@
 *.aux
 *.log
+*.sublime-workspace
+.jekyll-metadata
+
+# ruby stuff
+.bundle
+vendor/
+
+# Generated jekyll stuff
+_site/
+
